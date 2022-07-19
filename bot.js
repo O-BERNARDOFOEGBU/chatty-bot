@@ -1,68 +1,64 @@
 // javascript equivalent
+// const input = require('sync-input');
 
-const input = require('sync-input');
+// function greet(bot_name, birth_year) {
+// 	console.log("Hello! My name is " + bot_name + ".");
+// 	console.log("I was created in " + birth_year + ".");
+// }
 
+// function remind_name() {
+// 	console.log("Please, remind me your name.");
+// 	let name = input();
+// 	console.log("What a great name you have, " + name + "!");
+// }
 
-function greet(bot_name, birth_year) {
-	console.log("Hello! My name is " + bot_name + ".");
-	console.log("I was created in " + birth_year + ".");
-}
+// function guess_age() {
+// 	console.log("Let me guess your age.");
+// 	console.log("Enter remainders of dividing your age by 3, 5 and 7.");
 
-function remind_name() {
-	console.log("Please, remind me your name.");
-	let name = input();
-	console.log("What a great name you have, " + name + "!");
-}
+// 	let rem3 = Number(input());
+// 	let rem5 = Number(input());
+// 	let rem7 = Number(input());
 
-function guess_age() {
-	console.log("Let me guess your age.");
-	console.log("Enter remainders of dividing your age by 3, 5 and 7.");
+// 	let age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105;
 
-	let rem3 = Number(input());
-	let rem5 = Number(input());
-	let rem7 = Number(input());
+// 	console.log("Your age is " + age + "; that's a good time to start programming!");
+// }
 
-	let age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105;
+// function count() {
+// 	console.log("Now I will prove to you that I can count to any number you want.");
 
-	console.log("Your age is " + age + "; that's a good time to start programming!");
-}
+// 	let number = Number(input());
+// 	let current = 0;
 
-function count() {
-	console.log("Now I will prove to you that I can count to any number you want.");
+// 	while (current <= number) {
+// 		console.log(current + " !");
+// 		current += 1;
+// 	}
+// }
 
-	let number = Number(input());
-	let current = 0;
-
-	while (current <= number) {
-		console.log(current + " !");
-		current += 1;
-	}
-}
-
-function test() {
-	console.log("Let's test your programming knowledge.");
-
-	console.log (`Why do we use methods ?
-									1. To repeat a statement multiple times.
-									2. To decompose a program into several small subroutines.
-									3. To determine the execution time of a program.
-									4. To interrupt the execution of a program.`);
+// function test() {
+// 	console.log("Let's test your programming knowledge.");
+// 	console.log (`Why do we use methods ?
+// 									1. To repeat a statement multiple times.
+// 									2. To decompose a program into several small subroutines.
+// 									3. To determine the execution time of a program.
+// 									4. To interrupt the execution of a program.`);
 	
-	  while (input() != '2'){
-        console.log('Please, try again.');
-				}
-	console.log('Congratulations, have a nice day!')							
+// 	  while (input() != '2'){
+//         console.log('Please, try again.');
+// 				}
+// 	console.log('Congratulations, have a nice day!')							
 		
-}
+// }
 
-function end() {
-	console.log("Completed, have a nice day!");
-}
+// function end() {
+// 	console.log("Completed, have a nice day!");
+// }
 
-
-greet('Aid', '2020')  // change it as you need
-remind_name();
-guess_age();
-count();
-test();
-end();
+// greet('Aid', '2020')  // change it as you need
+// remind_name();
+// guess_age();
+// count();
+// test();
+// end();
